@@ -156,14 +156,14 @@ START_TEST(test_coord_2d_area_triangle)
     c.y = 0;
    ck_assert(coord_2d_area_triangle(&a,&b,&c) == 0);
 
-   coord_2d_t a,b,c;
-    a.x = 0;
-    a.y = 5;
-    b.x = 5;
-    b.y = 0;
-    c.x = 0;
-    c.y = 0;
-   ck_assert(coord_2d_area_triangle(&a,&b,&c) == 2.5);
+   coord_2d_t d,e,f;
+    d.x = 0;
+    d.y = 5;
+    e.x = 5;
+    e.y = 0;
+    f.x = 0;
+    f.y = 0;
+   ck_assert(coord_2d_area_triangle(&d,&e,&f) == 2.5);
 
 }
 END_TEST
