@@ -1,0 +1,2 @@
+https://travis-ci.com/robertngomez/CU-CSCI3308-CIPractice
+https://github.com/robertngomez/CU-CSCI3308-CIPractice

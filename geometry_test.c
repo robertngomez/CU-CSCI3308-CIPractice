@@ -163,7 +163,7 @@ START_TEST(test_coord_2d_area_triangle)
     e.y = 0;
     f.x = 0;
     f.y = 0;
-   ck_assert(coord_2d_area_triangle(&d,&e,&f) == 2.5);
+   ck_assert(coord_2d_area_triangle(&d,&e,&f) == 12.5);
 
 }
 END_TEST
