@@ -1,6 +1,3 @@
 language: c
-compiler:
-  - clang
-  - gcc
-script: make && make test
-install: make deps
+compiler: gcc
+script: make deps && make test
