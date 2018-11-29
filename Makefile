@@ -27,7 +27,7 @@ test: geometry_test
 
 
 dep:
-	brew install check
+	sudo apt-get install check
 
 clean:
 	$(RM) *.o
