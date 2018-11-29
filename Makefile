@@ -27,6 +27,7 @@ test: geometry_test
 
 
 dep:
+	sudo apt-get update
 	sudo apt-get install check
 
 clean:
