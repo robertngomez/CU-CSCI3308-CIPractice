@@ -1,0 +1,6 @@
+install: make deps
+language: c
+compiler:
+  - clang
+  - gcc
+script: make && make test
